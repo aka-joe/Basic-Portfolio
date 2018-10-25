@@ -150,24 +150,27 @@ footer {
 
 label {
     display: block;
-    width: 100%;
-    margin-bottom: 10px;
 }
 
 input[type=text], input[type=email], textarea {
     display: block;
-    width: 100%;
+    width: 880px;
     height: 35px;
     border: 1px solid #dddddd;
     padding: 0 10px;
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 textarea {
     height: 200px;
+    margin-bottom: 20px;
 }
 
 input[type=submit] {
     background: #4aaaa5;
+    color: #ffffff;
+    border: 0 none;
+    padding: 10px 30px;
+    font-size: 18px;
 }
-
