@@ -2,34 +2,38 @@
 <html>
     <head>
         <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     <body>
         <header>
-            <a href="./index.html" id="logo">Joseph Ahn</a>
-            <nav>
-                <a href="./index.html">About</a>
-                <a href="./portfolio.html">Portfolio</a>
-                <a href="./contact.html">Contact</a>
-            </nav>
+            <div class="container">
+                <a href="./index.html" id="logo">Joseph Ahn</a>
+                <nav>
+                    <a href="./index.html">About</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
         </header>
-
-        <section>
-            <h1>Contact</h1>
-            <form>
-                <h2>Name</h2>
-                <input type="text" name="name" placeholder="Joseph Ahn" required="required">
-                
-                <h2>Email</h2>
-                <input type="text" name="email" placeholder="example@gmail.com" required="required">
-                
-                <h2>Message</h2>
-                <textarea name="message" placeholder="example@gmail.com" required="required"></textarea>
-
-                <input type="submit" value="Submit">
-            </form> 
-        </section>
+        
+        <div id="main" class="container">
+            <section>
+                <h1>Contact</h1>
+                <form>
+                    Name
+                    <input type="text" name="name" placeholder="Joseph Ahn" required="required">
+                    
+                    Email
+                    <input type="text" name="email" placeholder="example@gmail.com" required="required">
+                    
+                    Message
+                    <textarea name="message" placeholder="example@gmail.com" required="required"></textarea>
+                    <input type="submit" value="Submit">
+                </form> 
+            </section>
+        </div>
 
         <footer>
             &copy; Copyright 2018 Joseph A.
