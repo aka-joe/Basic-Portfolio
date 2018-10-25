@@ -21,8 +21,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-body {
+html, body {
+    height: 100%;    
     margin: 0;
+}
+
+body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
@@ -224,4 +228,10 @@ input[type=submit] {
 nav a:hover {
     color: #ffffff;
     background: #4aaaa5; /* Bonus 2 - adding color that matched the theme */
+}
+
+/* Bonus 3 - Sticky footer with calc CSS */
+.wrapper {
+    min-height: calc(100vh - 102px);
+    padding: 0;
 }
