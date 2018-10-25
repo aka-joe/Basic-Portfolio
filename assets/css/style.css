@@ -213,3 +213,10 @@ input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
 }
+
+/* Bonus 1 - adding hover effects on the navigation menu links */
+
+nav a:hover {
+    color: #ffffff;
+    background: #4aaaa5; /* Bonus 2 - adding color that matched the theme */
+}
